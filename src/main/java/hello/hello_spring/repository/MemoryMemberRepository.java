@@ -34,6 +34,6 @@ public class MemoryMemberRepository implements MemberRepository{
   }
 
   public void clearStore(){
-    store.clear();
+    store.clear(); //리턴타입이 void이기 때문에 return 생략가능
   }
 }
